@@ -1,13 +1,5 @@
 import random
 import sys
-import turtle
-
-from PyQt5.QtWidgets import QApplication, QLabel
-
-app =QApplication([])
-label = QLabel('Helo')
-label.show()
-app.exec()
 
 def Game():
     sl = int(input("Set difficult 1 - (1-6), 2 - (1-9)"))
